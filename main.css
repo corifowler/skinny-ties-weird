@@ -1,8 +1,23 @@
 /* Header */
 
+header {
+  padding: 10px;
+  background-color: #FA6838;
+  color: white;
+}
+
 .ship,
 .save {
   display: inline-block;
+}
+
+.ship {
+  background-color: #C7532B;
+  padding: 10px;
+}
+
+.save {
+  padding: 10px;
 }
 
 /* Navigation Section */
@@ -59,4 +74,3 @@ footer {
   float: right;
   border: 1px solid black;
 }
-
