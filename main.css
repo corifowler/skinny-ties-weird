@@ -35,14 +35,9 @@ ul {
 
 /* Connect Columns (4) */
 
-.connect {
-  -webkit-column-count: 4;
-  -moz-column-count: 4;
-  -column-count:4;
-}
-
 .connect-box{
   border: 1px solid black;
+  display: inline-block;
 }
 
 
