@@ -38,6 +38,17 @@ ul {
 .connect-box{
   border: 1px solid black;
   display: inline-block;
+  width: 200px;
+}
+
+.connect-box img {
+  max-width: 100%;
+}
+
+/* Footer */
+
+footer {
+  background-color: #F4F4F4;
 }
 
 
