@@ -1,3 +1,14 @@
 /* Header */
 
+.ship,
+.save {
+  display: inline-block;
+}
 
+/* Navigation Section */
+
+ul {
+  list-style: none;
+}
+
+/* Repeating Images */
