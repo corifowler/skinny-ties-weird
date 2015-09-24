@@ -12,3 +12,36 @@ ul {
 }
 
 /* Repeating Images */
+
+/* Accessories & 3 Columns */
+
+.bowties {
+  float: left;
+  width: 30%;
+  border: 1px solid black;
+}
+
+.tie-bars {
+  float: right;
+  width: 30%;
+  border: 1px solid black;
+}
+
+.pocket-squares {
+  display: inline-block;
+  width: 30%;
+  border: 1px solid black;
+}
+
+/* Connect Columns (4) */
+
+.connect {
+  -webkit-column-count: 4;
+  -moz-column-count: 4;
+  -column-count:4;
+}
+
+.connect-box{
+  border: 1px solid black;
+}
+
