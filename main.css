@@ -51,4 +51,12 @@ footer {
   background-color: #F4F4F4;
 }
 
+.footer-list {
+  display: inline-block;
+}
+
+.help-box {
+  float: right;
+  border: 1px solid black;
+}
 
