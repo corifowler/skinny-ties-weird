@@ -34,7 +34,6 @@ input {
 }
 
 .nav-box {
-  border: 1px solid black;
   overflow: auto;
   display: inline-block;
   width: 100%;
@@ -111,7 +110,7 @@ ul {
 }
 
 .cart-img {
-  background: url('/Users/cfowler/tiy/projects/skinny-ties/assets/sprite@2x.png') no-repeat -45px -16px;
+  background: url('assets/sprite@2x.png') no-repeat -45px -16px;
   background-size: 400px 200px;
   width: 14px;
   height: 12px;
@@ -124,7 +123,7 @@ ul {
 
 .mag-glass {
   display:inline-block;
-  background: url('/Users/cfowler/tiy/projects/skinny-ties/assets/sprite@2x.png') no-repeat -15px -15px;
+  background: url('assets/sprite@2x.png') no-repeat -15px -15px;
   background-size: 400px 200px;
   width: 13px;
   height: 13px;
@@ -152,7 +151,7 @@ ul {
   background-size: 44px;
   height: 5px;
   position: absolute;
-  top: 0;
+  top: 259px;
   left: 0;
   width: 100%;
 }
@@ -160,7 +159,6 @@ ul {
 /* Tie Colors Section*/
 
 .tie-colors {
-  border: 1px solid black;
   display: inline-block;
   background-color: #F4F4F4;
   width: 100%;
@@ -190,30 +188,40 @@ ul {
 .accessories {
   display: inline-block;
   padding: 100px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.accessories p {
+  margin-right: 5px;
+  display: inline-block;
 }
 
 .bowties {
-  float: left;
+  display: inline-block;
   width: 30%;
-  border: 1px solid black;
-  background-image: url('/Users/cfowler/tiy/projects/skinny-ties/assets/bow-ties@1.5x.jpg');
+  background-image: url('assets/bow-ties@1.5x.jpg');
   background-size: 100% 100%;
+  height: 150px;
+  text-align: right;
 }
 
 .tie-bars {
-  float: right;
+  display: inline-block;
   width: 30%;
-  border: 1px solid black;
-  background-image: url('/Users/cfowler/tiy/projects/skinny-ties/assets/tie-bars@1.5x.jpg');
+  background-image: url('assets/tie-bars@1.5x.jpg');
   background-size: 100% 100%;
+  height: 150px;
+  text-align: right;
 }
 
 .pocket-squares {
   display: inline-block;
   width: 30%;
-  border: 1px solid black;
-  background-image: url('/Users/cfowler/tiy/projects/skinny-ties/assets/pocket-squares@1.5x.jpg');
+  background-image: url('assets/pocket-squares@1.5x.jpg');
   background-size: 100% 100%;
+  height: 150px;
+  text-align: right;
 }
 
 blockquote {
