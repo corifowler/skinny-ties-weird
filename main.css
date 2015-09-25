@@ -228,16 +228,72 @@ blockquote {
   padding: 100px;
 }
 
+/* Repeating Images - Exes */
+
+.exes {
+  background: url('assets/hatch-light@2x.png');
+  background-repeat: repeat-x;
+  background-size: 7px;
+  height: 7px;
+  position: absolute;
+  top: 1326px;
+  left: 0;
+  width: 100%;
+}
+
 /* Connect Columns (4) */
+
+.connect {
+  border: 1px solid black;
+}
 
 .connect-box{
   border: 1px solid black;
   display: inline-block;
-  width: 200px;
+  max-width: 23%;
+  padding: 5px;
 }
 
 .connect-box img {
   max-width: 100%;
+}
+
+.connect-box a {
+  text-decoration: none;
+}
+
+.connect button {
+  background-color: #289EFF;
+  border-radius: 5px;
+  border: none;
+}
+
+.social-media {
+  display: inline-block;
+}
+
+.fb {
+  background: url('assets/sprite@2x.png') no-repeat -270px 0;
+  background-size: 400px 200px;
+  width: 35px;
+  height: 35px;
+  display: inline-block;
+}
+
+.pinterest {
+  background: url('assets/sprite@2x.png') no-repeat -270px -40px;
+  background-size: 400px 200px;
+  width: 35px;
+  height: 35px;
+  display: inline-block;
+}
+
+.tweeter {
+  background: url('assets/sprite@2x.png') no-repeat -270px -80px;
+  background-size: 400px 200px;
+  width: 35px;
+  height: 35px;
+  display: inline-block;
 }
 
 /* Footer */
