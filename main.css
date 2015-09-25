@@ -143,13 +143,19 @@ ul {
   -moz-box-sizing: border-box; 
   -webkit-box-sizing: border-box;
 }
-}
+
 /* Repeating Images */
 
-/*.scalloped {*/
-  /*background: url('/Users/cfowler/tiy/projects/skinny-ties/assets/perforated-bottom@2x.png');*/
-  /*background-repeat: repeat-x;*/
-/*}*/
+.scalloped {
+  background: url('assets/perforated-bottom@2x.png');
+  background-repeat: repeat-x;
+  background-size: 44px;
+  height: 5px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
 
 /* Tie Colors Section*/
 
@@ -176,32 +182,42 @@ ul {
 }
 
 .better {
-  padding: 20px;
+  padding: 75px;
 }
-
 
 /* Accessories & 3 Columns */
 
 .accessories {
   display: inline-block;
+  padding: 100px;
 }
 
 .bowties {
   float: left;
   width: 30%;
   border: 1px solid black;
+  background-image: url('/Users/cfowler/tiy/projects/skinny-ties/assets/bow-ties@1.5x.jpg');
+  background-size: 100% 100%;
 }
 
 .tie-bars {
   float: right;
   width: 30%;
   border: 1px solid black;
+  background-image: url('/Users/cfowler/tiy/projects/skinny-ties/assets/tie-bars@1.5x.jpg');
+  background-size: 100% 100%;
 }
 
 .pocket-squares {
   display: inline-block;
   width: 30%;
   border: 1px solid black;
+  background-image: url('/Users/cfowler/tiy/projects/skinny-ties/assets/pocket-squares@1.5x.jpg');
+  background-size: 100% 100%;
+}
+
+blockquote {
+  padding: 100px;
 }
 
 /* Connect Columns (4) */
