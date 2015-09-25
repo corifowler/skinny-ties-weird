@@ -24,9 +24,20 @@ header {
 
 /* Navigation Section */
 
+input {
+  border: 0;
+}
+
+.nav-menu {
+  display: inline-block;
+  margin-top: 50px;
+}
+
 .nav-box {
   border: 1px solid black;
   overflow: auto;
+  display: inline-block;
+  width: 100%;
 }
 
 .logo img {
@@ -41,6 +52,7 @@ ul {
   list-style: none;
   margin: 0;
   padding: 0;
+  display: inline-block;
 }
 
 .nav-box li {
@@ -53,11 +65,10 @@ ul {
 }
 
 .shop-options {
-  /*float: right;*/
-  text-align: right;
-  margin-top: -60px;
+  float: right;
   margin-right: 100px;
   padding: 10px;
+  display: inline-block;
 }
 
 .shop-options a {
@@ -72,13 +83,17 @@ ul {
 
 .container {
   float: right;
-  margin-right: 100px;
+  margin-right: 70px;
+  margin-top: -75px;
+  width: 26%;
+  display: inline-block;
 }
 
 .cart {
   display: inline-block;
   border: 1px solid #E3E3E3;
   border-radius: 5px;
+  padding: 5px;
 }
 
 .search {
@@ -91,8 +106,25 @@ ul {
   padding: 2px;
 }
 
+.cart-img {
+  background: url('/Users/cfowler/tiy/projects/skinny-ties/assets/sprite@2x.png') no-repeat -45px -16px;
+  background-size: 400px 200px;
+  width: 14px;
+  height: 12px;
+  display: inline-block;
+}
+
 .search {
   position: relative;
+}
+
+.mag-glass {
+  display:inline-block;
+  background: url('/Users/cfowler/tiy/projects/skinny-ties/assets/sprite@2x.png') no-repeat -15px -15px;
+  background-size: 400px 200px;
+  width: 13px;
+  height: 13px;
+  display: inline-block;
 }
 
 .search::before {
