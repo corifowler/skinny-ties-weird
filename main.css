@@ -172,11 +172,19 @@ ul {
   background-color: #F4F4F4;
   display: inline-block;
   text-align: center;
+  padding: 0 112px;
+}
+
+.better {
+  padding: 20px;
 }
 
 
-
 /* Accessories & 3 Columns */
+
+.accessories {
+  display: inline-block;
+}
 
 .bowties {
   float: left;
