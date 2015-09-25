@@ -89,6 +89,10 @@ ul {
   display: inline-block;
 }
 
+.container span {
+  padding: 5px;
+}
+
 .cart {
   display: inline-block;
   border: 1px solid #E3E3E3;
@@ -141,6 +145,36 @@ ul {
 }
 }
 /* Repeating Images */
+
+/*.scalloped {*/
+  /*background: url('/Users/cfowler/tiy/projects/skinny-ties/assets/perforated-bottom@2x.png');*/
+  /*background-repeat: repeat-x;*/
+/*}*/
+
+/* Tie Colors Section*/
+
+.tie-colors {
+  border: 1px solid black;
+  display: inline-block;
+  background-color: #F4F4F4;
+  width: 100%;
+}
+
+.ties {
+  display: inline-block;
+  background-color: #F4F4F4;
+  max-width: 100%;
+}
+
+.all-the-ties {
+  /*margin-right: 100px;*/
+  /*margin-left: 100px;*/
+  background-color: #F4F4F4;
+  display: inline-block;
+  text-align: center;
+}
+
+
 
 /* Accessories & 3 Columns */
 
