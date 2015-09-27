@@ -252,6 +252,7 @@ blockquote {
   display: inline-block;
   max-width: 23%;
   padding: 5px;
+  vertical-align: top;
 }
 
 .connect-box img {
@@ -262,10 +263,31 @@ blockquote {
   text-decoration: none;
 }
 
+.connect-box input {
+  border: 3px solid #F4F4F4;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.connect-box form {
+  padding-bottom: 10px;
+}
+
+.connect-box input::before {
+  content:"";
+  position: absolute;
+  border: 1px solid #DCDCDC;
+  border-radius: 3px;
+  height: 100%;
+  width: 100%;
+}
+
 .connect button {
   background-color: #289EFF;
   border-radius: 5px;
   border: none;
+  color: white;
+  padding: 5px;
 }
 
 .social-media {
