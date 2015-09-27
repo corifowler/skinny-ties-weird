@@ -63,6 +63,7 @@ ul {
   display: inline-block;
   padding: 17px;
   font-size: 18pt;
+  color: #414141;
 }
 
 .nav-menu a {
@@ -134,6 +135,10 @@ ul {
 .cart span {
   padding: 5px;
   margin-right: 6px;
+}
+
+.cart a {
+  text-decoration: none;
 }
 
 .search {
@@ -353,7 +358,7 @@ blockquote {
   background-size: 7px;
   height: 7px;
   position: absolute;
-  top: 1388px;
+  top: 1376px;
   left: 0;
   width: 100%;
 }
@@ -393,19 +398,6 @@ blockquote {
 
 .connect-box span {
   font-weight: bold;
-}
-
-.subscribe::before {
-  content:"";
-  position: absolute;
-  display: block;
-  border: 3px solid #F4F4F4;
-  border-radius: 3px;
-  box-sizing: border-box;
-  height: 10%; 
-  width: 14.5%;
-  -moz-box-sizing: border-box; 
-  -webkit-box-sizing: border-box;
 }
 
 .connect button {
