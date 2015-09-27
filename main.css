@@ -41,6 +41,7 @@ input {
   overflow: auto;
   display: inline-block;
   width: 100%;
+  postion: relative;
 }
 
 .logo img {
@@ -175,6 +176,68 @@ ul {
   border-color: transparent #c8c8c8 transparent transparent;
   top: 151px;
   right: 327px;
+}
+
+/* Nav Menu Triangles*/
+
+.nav-box::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 5px 5px 0 5px;
+  border-color: #e0e0e0 transparent transparent transparent;
+  top: 187px;
+  right: 955px;
+}
+
+.nav-menu::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 5px 5px 0 5px;
+  border-color: #e0e0e0 transparent transparent transparent;
+  top: 187px;
+  right: 819px;
+}
+
+.shop-options::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 5px 5px 0 5px;
+  border-color: #e0e0e0 transparent transparent transparent;
+  top: 187px;
+  right: 707px;
+}
+
+.container::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 5px 5px 0 5px;
+  border-color: #e0e0e0 transparent transparent transparent;
+  top: 187px;
+  right: 592px;
+}
+
+.logo::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 5px 5px 0 5px;
+  border-color: #e0e0e0 transparent transparent transparent;
+  top: 187px;
+  right: 470px;
 }
 
 /* Repeating Images */
