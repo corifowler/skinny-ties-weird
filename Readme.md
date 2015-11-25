@@ -1,8 +1,8 @@
-#Weekend 1 Assignment
+## Skinny Ties Website Mock-up
 
-##Hard Mode
+- View project here: http://skinny-ties.surge.sh/
 
 
-* Cool fonts
+* Practicing web layout using HTML/CSS
 * Lots of triangle placement
 * Repeating images
